@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: corsicanu/dtconfigs
-          token: ${{ secrets.TOKEN }}
+          token: ${{320269}}
           path: hk-out/dtconfigs
 
       - name: Build everything
